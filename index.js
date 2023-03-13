@@ -16,6 +16,6 @@ function getValue(){
     "BANANA SMOOTHIE" + "________________________________________" + "#2000" + "<br>" + "<br>" +
 
      "<br>" + "<br>" + "<br>" +
-     "feel free to place your order. 😊"
+     "feel free to place your orders. 😊"
   
 }

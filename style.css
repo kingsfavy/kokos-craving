@@ -16,21 +16,27 @@ width:100%;
 height:100%;
  margin:0;
  } 
-.box{
-  
-}
-
  .btn{
-   
    margin-left:5%;
    font-weight:bold;
    border-radius:25px;
  }
- .cake{
+ .smoothie{
    margin-left:2%;
    font-family: 'Times New Roman', serif;
  }
- .cakes{
+ .smoothies{
+   text-align:center;
+   font-family: 'Brush Script MT', cursive;
+ }
+ .c{
+  
+   font-weight:bolder;
+      font-family: 'Brush Script MT', cursive;
+      font-size:18px;
+      color:blue;
+ }
+ .cocktail{
    text-align:center;
    font-family: 'Brush Script MT', cursive;
  }
@@ -146,6 +152,12 @@ height:100%;
  .intro::first-letter{
    font-size:40px;
    font-weight:bolder;
+ }
+ .k{
+   color:black;
+   font-size:30px;
+   font-weight:bolder;
+   font-family: 'Brush Script MT', cursive;
  }
  .koko{
    color:black;
