@@ -40,6 +40,9 @@ height:100%;
    text-align:center;
    font-family: 'Brush Script MT', cursive;
  }
+ .cocktails{
+   margin-left:2%;
+ }
  .con-btn{
    border:1px solid black;
    width:40px;
@@ -142,6 +145,10 @@ height:100%;
    width:21px;
    height:21px;
  }
+ .iconss{
+   width:25px;
+   height:25px;
+ }
  img{
   filter: saturate(150%);
  }
@@ -154,13 +161,13 @@ height:100%;
    font-weight:bolder;
  }
  .k{
-   color:black;
+   color: #FFD700;
    font-size:30px;
    font-weight:bolder;
    font-family: 'Brush Script MT', cursive;
  }
  .koko{
-   color:black;
+  color: #FFD700;
  }
  label{
    flex:1;
