@@ -2,17 +2,15 @@
 
        
  body{
-  
-   overflow:auto;
+   overflow:scroll;
    background-image:linear-gradient(270deg, #F0DDFF, #ffffff); 
 width:100%;
-height:100%;
+height:100vh;
  margin:0;
  
  }
  .com{
-position:sticky;
-   z-index: -1;
+z-index: -1;
    font-size:14px;
       -webkit-animation: bottom 3.5s alternate-reverse ease-in-out 0s 1 forwards;
  }
@@ -31,9 +29,8 @@ position:sticky;
   height:auto;
   }
   .container2{
-  position:sticky;
-    z-index: -2;
-       -webkit-animation: bottom 2.5s alternate-reverse ease-in-out 0s 1 forwards;
+  
+  
   text-align: center;
   width:100%;
   height:auto;
@@ -53,6 +50,7 @@ position:sticky;
  font-family: 'Brush Script MT', cursive;
  }
   .foot{
+      -webkit-animation: bottom 4s alternate-reverse ease-in-out 0s 1 forwards;
     position:sticky;
     z-index: -1;
    font-size: 12px;
@@ -88,11 +86,11 @@ margin-top:5%;
   text-align:center;
 }
 .profile-pict{
-margin-top:5%;
-  width:150px;
-  height:150px;
-  border-radius:22500px;
-  text-align:center;
+   -webkit-animation: bottom 2.5s alternate-reverse ease-in-out 0s 1 forwards;
+  min-width:100%;
+  max-height:auto;
+  position:sticky;
+    z-index: -2;
 }
 .photo{
   width:100%;
@@ -126,13 +124,14 @@ margin-top:5%;
          visibility: visible;
       }
       .lightbox-content {
-        position:relative;
+       padding-top:50%;
+       width:100%;
         overflow:hidden;
-        height:100vh;
-        padding-top:20%;
+        height:100%;
+       position: relative;
          display: table-cell;
-         vertical-align: left; 
-         text-align: center;
+         vertical-align: middle; 
+        
       }
      
       @-webkit-keyframes bottom{
