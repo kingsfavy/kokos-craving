@@ -3,20 +3,26 @@ function getValue(){
   "___________________________MENU___________________________" + "<br>" + "<br>" + "<br>" +
   "FOR SMALL CHOPS :" + "<br>" + "<br>" + "<br>" +
   "PACKAGES" +"________________________________________" +  "PRICES" + "<br>" + "<br>" +
-  "MOSA" + "_____________________________________________" + "#2000" + "<br>" + "<br>" +
-  "SAMOSA" + "___________________________________________" + "#2000" + "<br>" + "<br>" +
-  "COCKTAIL PUFF-PUFF" +"_______________________________________________" +"#2000" + "<br>" + "<br>" +
-  "STICK MEAT" + "_______________________________________________" + "#2000" +"<br>" + "<br>" +
-   "SPRING ROLL" + "_______________________________________________" + "#2000" + "<br>" + "<br>" + "<br>" +
+  "MOSA" + "_____________________________________________" + "#" + "<br>" + "<br>" +
+  "SAMOSA" + "___________________________________________" + "#" + "<br>" + "<br>" +
+  "COCKTAIL PUFF-PUFF" +"_______________________________________________" +"#" + "<br>" + "<br>" +
+  "STICK MEAT" + "_______________________________________________" + "#" +"<br>" + "<br>" +
+   "SPRING ROLL" + "_______________________________________________" + "#" + "<br>" + "<br>" + "<br>" +
 
     "FOR SMOOTHIES :" + "<br>" + "<br>" + "<br>" +
        "PACKAGES" +"_________________________________________" +  "PRICES" + "<br>" + "<br>" +
-  "VANILLA SMOOTHIE" + "_________________________________________" + "#2000" + "<br>" + "<br>" +
-  "STRAWBERRY SMOOTHIE" + "________________________________________" + "#2000" + "<br>" + "<br>" +
-  "CHOCOLATE SMOOOTHIE" + "______________________________________" + "#2000" +"<br>" + "<br>" +
-    "BANANA SMOOTHIE" + "________________________________________" + "#2000" + "<br>" + "<br>" +
+  "VANILLA SMOOTHIE" + "_________________________________________" + "#" + "<br>" + "<br>" +
+  "STRAWBERRY SMOOTHIE" + "________________________________________" + "#" + "<br>" + "<br>" +
+  "CHOCOLATE SMOOOTHIE" + "______________________________________" + "#" +"<br>" + "<br>" +
+    "BANANA SMOOTHIE" + "________________________________________" + "#" + "<br>" + "<br>" +
 
      "<br>" + "<br>" +
      "feel free to place your orders. 😊"
-  document.getElementById("firstelem").style.color = "black";
+  document.getElementById("firstelem"). style.width="100%";
+  document.getElementById("firstelem"). style.flexWrap="wrap"; /*
+  document.getElementById("firstelem").style.textDecoration = "none"; 
+  
+  document.getElementById("firstelem").style.background ="blue"; */
+  document.getElementById("firstelem").style.overflow ="auto";
+  document.getElementById("firstelem").style.marginLeft ="1%";
 }

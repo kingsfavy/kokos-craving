@@ -229,6 +229,10 @@ height:100%;
    font-family: 'Times New Roman', serif;
  }
  .pic{
+  /*  transform: rotateX(150deg);
+    transform: rotateY(150deg);
+    transform: rotateZ(90deg); */
+
    width:50%;
    margin-left:4%;
    border:none;
