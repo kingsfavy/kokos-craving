@@ -25,4 +25,15 @@ function getValue(){
   document.getElementById("firstelem").style.background ="blue"; */
   document.getElementById("firstelem").style.overflow ="auto";
   document.getElementById("firstelem").style.marginLeft ="1%";
+  document.getElementById("firstelem").style.tansitionDuration = ".5s";
+
+
+
+  
+var elem = document.getElementById("firstelem");
+         elem.style.display = "block";
+         setTimeout(function() {
+            elem.style.opacity = 1;
+         }, 10);
+
 }

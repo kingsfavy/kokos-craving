@@ -8,6 +8,11 @@
     font-size:14px;
     margin-left:2%;
   }
+  .bix{
+    width:100%;
+    height:auto;
+    overflow:hidden;
+  }
  body{
    flex-wrap:wrap;
    overflow: scroll; 
@@ -16,11 +21,23 @@ width:100%;
 height:100%;
  margin:0;
  } 
+  .box#demo {
+         width:100%;
+         height: auto;
+         
+         opacity:1; 
+       /*  display: block; */
+         transition: all 1s;
+      }
+      
  .btn{
+   -webkit-transition-duration: 1s; /* for Safari */
+         transition-duration: 1s;
    margin-left:5%;
    font-weight:bold;
    border-radius:25px;
  }
+ 
  .smoothie{
    margin-left:2%;
    font-family: 'Times New Roman', serif;
@@ -107,7 +124,8 @@ height:100%;
    width:50%;
  }
  .flexs{
-   
+      -webkit-transition-duration: 1s; /* for Safari */
+         transition-duration: 1s;
    flex:1;
    width:50%;
    border-radius:10px;
@@ -137,7 +155,7 @@ height:100%;
  .hori{
    border-style:dashed none none none;
    width:70%;
- }
+ } 
  .hor{
    border-style:dashed none none none;
    width:30%;
@@ -205,12 +223,23 @@ height:100%;
    flex:1;
  }
  .main{
+   
+   transition-duration: 2s;
+   transform: rotateY(360deg);
    background-color: #F0DDFF;
    margin-top:2%;
    width:100px;
    height:100px; 
   border-radius:1000px; 
- }
+ } /*
+ .main:hover{
+   
+   background-color: #F0DDFF;
+   margin-top:2%;
+   width:100px;
+   height:100px; 
+  border-radius:1000px; 
+ }*/
  .nav{
    float:right;
    margin-right:5%;
@@ -229,10 +258,8 @@ height:100%;
    font-family: 'Times New Roman', serif;
  }
  .pic{
-  /*  transform: rotateX(150deg);
-    transform: rotateY(150deg);
-    transform: rotateZ(90deg); */
-
+    -webkit-transition-duration: 1s;
+         transition-duration: 1s;
    width:50%;
    margin-left:4%;
    border:none;
@@ -242,6 +269,7 @@ height:100%;
    border-radius:10000px;
  }
  .pic:hover{
+
    width:125px;
    height:125px;
    border-radius:15625px;
@@ -262,18 +290,21 @@ height:100%;
    text-align:center;
    font-family: 'Brush Script MT', cursive;
  }
+ span:hover{
+
+ }
  .dd {
          position: relative;
          display: inline-block;
       }
       .dd-btn {
         justify-content: center;
-     border-radius:auto;
+     border-radius:10px;
         font-weight:bolder;
        padding:10px;
          text-align: center;
          background: #F0DDFF ;
-         border: none;
+         border: 2px solid white;
          color: #000000;
       }
       .dd-content {
